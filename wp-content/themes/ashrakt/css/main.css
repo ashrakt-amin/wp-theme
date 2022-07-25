@@ -1,0 +1,413 @@
+body{
+    background-color:#EEE;
+}
+.container{
+    margin-bottom: 150px;
+}
+
+.main-post {
+    margin:20px;
+   
+}
+
+.main-post i {
+    color: #999;
+    margin-right: 2px;
+}
+
+.main-post .post-author,
+.main-post .post-date ,
+.main-post .post-comments{
+    font-size: 13px;
+}
+
+
+.main-post .post-content{
+   line-height: 1,7;
+   color: #888;
+}
+ 
+.post-pagination{
+    margin: 40px auto;
+    text-align: center;
+    width: 400px;
+    margin-bottom:150px;
+   
+}
+.pagination .single{
+    margin: 10px auto;
+    text-align: center;
+    width: 400px;
+    background-color: #eee;
+   
+}
+
+.post-pagination .page-numbers{
+    padding: 10px 10px;
+    background-color: #fff;
+    text-decoration: none;
+    transition-property: width;
+    transition-duration: 2s;
+    transition-timing-function: linear;
+    transition-delay: 1s;
+}
+
+.post-pagination .page-numbers .current{
+    background-color: rgb(104, 0, 0);
+
+}
+
+
+.post-pagination a:first-of-type{
+    margin-right: 10px;
+}
+
+/* end index of */
+/* start single post */
+
+.container .single-home{
+    width: 60%;
+    background-color: #eee;
+
+
+
+}
+.container .author{
+    margin-bottom: 200px;
+}
+.single-post i{
+    color: #999;
+    margin-right: 2px;
+}
+
+.single-post .post-author,
+.single-post .post-date ,
+.single-post .post-comments{
+    font-size: 13px;
+}
+
+
+.post-title{
+    text-align: center;
+}
+.row{
+    margin: 20px;
+}
+
+.post-edit-link i{
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 7px 10px;
+    background-color: #eee;
+}
+
+ .posts .post-title a{
+    text-decoration: none;
+ }
+
+.author-stats p{
+    display: block;
+    color: #999;
+}
+
+
+.author-stats p span{
+    color: rgb(83, 4, 4);
+}
+
+.author{
+
+   border:1px solid ;
+   margin:10px 20px;
+   background-color:#fff ;  
+   padding:50px;
+   border-color:#eee
+
+}
+.author .avatar{
+    margin-bottom: 10px;
+}
+
+.single-home .post-content{
+    line-height: 1,8;
+}
+.comments{
+    margin-top:30px;
+    margin-left:50px;
+    margin-bottom:50px;
+    background-color: #EEE;
+
+}
+.comment {
+    border: 1px solid ;
+    border-color: #fff;
+    background-color: #fff;
+    margin:20px 20px
+}
+
+.my-comments{
+   
+    margin:100px;
+    margin-top:30px;
+}
+
+.comment .comment-body{
+    border: 1px solid ;
+    border-color: rgb(227, 218, 218);
+}
+
+.comment-respond{
+    margin-bottom: 120px;
+}
+
+.comment-reply-title{
+        text-align: center;
+        color: #b9acac;
+        background-color: #eee;
+        padding: 10px;
+        font-size: medium;
+}
+.required-field-message{
+ visibility: hidden;;
+}
+.comment-form{
+    background-color: #eee;
+}
+.comment-respond label{
+    display: block;
+    color:#b9acac;
+    margin-left: 50px;
+    margin-bottom: 10px;
+}
+
+.comment-respond input [type ="text"],
+.comment-respond textarea{
+    width:150;
+    height:50;
+    padding: 10px;
+    border: 1px solid ;
+    border-color: #fff;
+    margin-left: 50px;
+    max-width: 100%;
+
+}
+.logged-in-as ,.form-submit{
+    margin-left: 50px;
+}
+
+.comment-respond textarea{
+height: 100px;
+}
+
+.my-comments .bypostauthor {
+position: relative;
+}
+
+.my-comments .bypostauthor:after{
+    position: absolute;
+    content: 'author'; 
+    top:0;
+    right: 0;
+    color: #82f382;
+    font-weight: bold;
+   }
+
+/* end single post */
+
+/* start author page */
+.author-main-info li span{
+   color: #999;
+}
+
+.author-page .author-main-info{
+    background-color: #fff;
+    padding: 20px;
+    font-size: 18px;
+    margin-bottom: 20px;
+    border: 1px solid #eee;
+}
+
+.profile-header{
+    margin: 20px;
+    letter-spacing: 1px;
+    color: #777;
+    font-weight: bold;
+    font-size: 60px;
+}
+.author-main-info p{
+    letter-spacing: 1px;
+    line-height: 1.7;
+    color: #777;
+}
+ 
+.author-page .author-stats .stats{
+    background-color: #fff;
+    padding: 20px;
+    font-size: 18px;
+    margin-bottom: 20px;
+    border: 1px solid #eee;
+    text-align: center;
+}
+
+.author-page .author-stats .stats span{
+   display: block;
+   margin: 20px;
+}
+
+.all-posts span ,
+.all-posts span i {
+    margin: 5px;
+}
+
+.post-author hr{
+}
+
+.author-posts .row{
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.author-posts-name{
+    text-align: center;
+    background-color: #fbe9e9;
+}
+
+.author-comments{
+    background-color: #fff;
+    padding: 20px ;
+    margin: 20px;
+    border-radius: 5px;
+}
+
+.author-comments h4 a{
+    text-decoration: none;
+}
+
+.author-comments span i{
+    padding: 10px;
+
+}
+
+.author-comments .comment-content  {
+  padding:10px 40px ;
+    }
+    
+.author-comments .comment-date  {
+color: #adabab;
+font-size: small;
+}
+
+/* end author page */
+
+
+                                  /* start 404 page */
+.page-not-found img{
+ width:300px;
+ height: 250px;
+ margin: 20px;
+ border-radius: 10px;
+ border: 1px solid #eee;
+}
+
+.page-not-found h1{
+ font-weight: bold;
+ color: #777;
+}
+
+.page-not-found p{
+font-size: 25px;
+color: #999;
+}
+                              /* end 404 page */
+ 
+                               /* start categoty page */
+
+.category-information{
+    background-color: #fff;
+    padding:10px;
+    margin: 10px 122px;
+    text-align: center;
+}      
+
+.category-information .category-title 
+{
+    color:#888;
+}
+
+.category-description p 
+{
+    color:#888;
+}
+
+.category-information  span
+{
+    color:#888;
+    font-size: 14px;
+    text-align: center;
+}
+
+
+                              /* end categoty page */
+  
+
+                               /* start sidebar page */
+.side-div{
+    margin-bottom: 10px;
+    background-color: #eee;
+    padding: 10px 4px;
+}
+.sidebar{
+    background-color: #fff;
+    padding: 20px;
+}       
+                        
+
+.sidebar .sidebar1
+{
+    background-color: #eee;
+    margin-bottom: 10px;
+
+}
+.sidebar-h1{
+    background-color: aliceblue;
+
+}                        
+                           
+                              /* end sidepage page */
+
+
+
+.breadcrumb li a{
+    margin: 10px;
+    text-decoration: none;
+    color: rgb(120, 128, 188);
+    font-weight: bold;
+}
+
+.breadcrumb .active a{
+    margin: 10px;
+    text-decoration: none;
+    color: rgb(176, 176, 176);
+    font-weight: bold;
+}
+ .breadcrumb{
+    margin: 20px;
+
+ }
+                             
+                               /* start breadcrumb page */
+
+                            
+.footer{
+    position: fixed;
+    background-color: black;
+    color: #EEE;
+    bottom: 0px;
+    height: 100px;
+    width:100%;
+    border: 1px solid ;
+    margin-top: 200px;
+
+}

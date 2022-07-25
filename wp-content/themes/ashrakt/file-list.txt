@@ -1,0 +1,23 @@
+Template Files List :
+
+ style.css
+ rtl.css
+ index.php
+ comments.php
+ front-page.php
+ home.php
+ single.php
+ single-{post-type}.php
+ page.php
+ category.php
+ tag.php
+ taxonomy.php
+ author.php
+ date.php
+ archive.php
+ search.php
+ attachment.php
+ image.php
+ 404.php
+
+

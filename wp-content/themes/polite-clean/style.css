@@ -1,0 +1,276 @@
+/*
+Theme Name: Polite Clean
+Theme URI: https://www.templatesell.com/item/polite-minimal-blog-wordpress-theme/
+Author: templatesell
+Author URI: https://www.templatesell.com/
+Description: Free Blog theme for 2022. It is perfect theme for news and magazine too. With masonry layout and multiple blog page layout, this theme is the awesome and minimal theme. It is a child theme of Polite. This theme has search option, off-canvas sidebar, multiple sidebar options, footer options, featured slider, promo boxed, footer widgets and many more. Besides that, this theme comes with added custom widgets for author information, featured posts, social icons, etc. It comes with primary color option to change the whole site color with a single click. More Details: https://www.templatesell.com/item/polite-minimal-blog-wordpress-theme/
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: polite-blog
+Template: polite
+Requires PHP: 5.2
+Tested up to: 6.0
+Tags: grid-layout, one-column, two-columns, three-columns, four-columns, left-sidebar, right-sidebar, custom-background, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready, footer-widgets, custom-colors, custom-header, editor-style, rtl-language-support, theme-options, blog, news
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+
+Polite Clean is free WordPress theme by, Template Sell and child theme of Polite.
+Polite Clean is distributed under the terms of the GNU GPL v2 or later.
+
+Normalizing styles have been helped along thanks to the fine work of
+Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
+*/
+
+html{
+    font-size: 100%!important;
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Crete Round', sans-serif;
+}
+body{
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-size-adjust: 100%;
+    text-size-adjust: 100%;
+    text-rendering: optimizeLegibility;
+}
+.top-bar-area{
+        background: #fff6ef;
+}
+
+.main-header .logo h1{
+	text-transform: uppercase;
+}
+.header-1 .head_one {
+    border-bottom: 0;
+}
+a.s_click {
+    color: #333;
+}
+.header-1 .head_one {
+    background: #fff;
+    border-bottom: 0;
+}
+.posts-container{
+	padding-top: 30px;
+}
+.slide-wrap{
+	background: #ffffff;
+}
+.post-wrap{
+	margin-bottom: 30px;
+	
+}
+.left-image{
+	padding:0;
+}
+.left-image .post-media{
+	padding:0;
+	vertical-align: top;
+}
+.left-image .post-content{
+	padding:30px;
+}
+
+.promo-three .post-category a {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #858585;
+    font-size: 12px;
+}
+
+.post-cats > span{
+    font-size: 0;
+}
+.post-cats > span a{
+   background-color: rgba(240,142,128,.1);
+}
+.slider-items{
+    display: block!important;
+}
+.entry-thumbnail{
+    position:relative;
+}
+.overlay {
+    background: rgba(0, 0, 0, 0.25);
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    position: absolute;
+}
+.slide-wrap .caption {
+    color: #fff;
+    width: 100%;
+    left: 0;
+    bottom: 30px;
+    position: absolute;
+    text-align: center;
+    padding: 0;
+}
+.slide-wrap .caption h2 a {
+    color: #ffffff;
+    font-size: 36px;
+}
+.slide-wrap .caption span, '
+.slide-wrap .caption span a{
+    color: #ffffff;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 13px;
+}
+.slide-wrap .caption .s-cat{
+    padding: 0;
+    color: #fff;
+    transition: .15s;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.slide-wrap .caption span, 
+.slide-wrap .caption span a {
+    font-size: 13px;
+    color: #fff;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+.modern-slider .slick-dots{
+    position: initial;
+    margin-top: 15px;
+}
+.modern-slider .slick-dots li button{
+    background: #e6e6e6;
+}
+.modern-slider .slick-dots li.slick-active button{
+    background: #808080;
+}
+.modern-slider .slick-arrow{
+    display: none!important;
+}
+.modern-slider .slick-dots{
+    bottom: auto;
+}
+.modern-slider .slick-dots li button {
+    width: 25px;
+    height: 3px;
+    border-radius: 0;
+}
+.post-content{
+    text-align: center;
+    padding: 25px 0;
+}
+.single .post-content{
+    text-align: left;
+}
+.post-cats > span a {
+    background-color: rgba(240,142,128,.1);
+    color: #505050;
+    padding: 6px 10px;
+    border-radius: 2px;
+    transition: .15s;
+    text-transform: uppercase;
+    font-size: 13px;
+}
+.post-cats > span a:hover {
+    background-color: #f08e80;
+    color: #fff;
+}
+.post-cats > span a:not(:last-child) {
+    margin-right: 0.5rem;
+}
+.post-date, .post-date a {
+    font-size: 13px;
+    color: #505050;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.more-link {
+    color: #f3a599;
+    text-transform: capitalize;
+    letter-spacing: 0.5px;
+    font-weight: normal;
+    font-size: 14px;
+}
+.social-links ul li:hover a:before{
+    color:#f08e80;
+}
+.sidebar-3 .widget {
+    margin: 0 0 30px 0;
+    background: #fff;
+    border:none;
+}
+
+.sidebar-3 .widget-title {
+    position: relative;
+    padding: 0;
+    border-bottom: none;
+    text-align: left;
+}
+.sidebar-3 .widget-title:after {
+    position: absolute;
+    width: 30px;
+    height: 2px;
+    background: #111;
+    top: 8px;
+    content: "";
+    margin-left: 10px;
+    left: auto;
+}
+.post-wrap.left-image.has-content{
+    display: inline-grid;
+}
+.post-wrap.left-image.has-content .post-media{
+    max-width: 100%;
+    display: block;
+}
+.comment-form{
+    padding: 15px;
+}
+.footer-wrap {
+    background-color: #fff6ef;
+    border-top: 1px solid #f8e4d4;
+}
+.site-footer {
+    border-top: 1px solid #fcede1;
+    background: #fcede1;
+}
+.footer-col-1, .footer-col-2, .footer-col-3, .footer-col-4 {
+    border-right: 1px solid #f8e4d4;   
+}
+
+.sidebar-area .widget{
+    padding: 0 ;
+    margin: 0;
+}
+.footer-top-box .widget:nth-child(2n+2),
+.sidebar-area .widget:nth-child(2n+2){
+    margin-bottom: 30px;
+}
+.widget_block h2,
+.wp-block-group__inner-container h2{
+    font-size: 20px;
+}
+.wp-block-search__label {
+    margin-bottom: 15px;
+    display: block;
+}
+.wp-block-search__button {
+    margin-left: 0;
+    border: 0;
+    background: #f08e80;
+    color: #fff;
+    border-radius: 0 4px 4px 0;
+}
+.wp-block-search__input {
+    border: 1px solid #e8e8e8;
+    border-radius: 4px 0 0 4px;
+}
+ul.trail-items {
+    background: #fff6ef;
+    padding: 10px;
+}
+.post-excerpt a, 
+.post-excerpt a, 
+.content a{
+    color: #f08e80;
+}
